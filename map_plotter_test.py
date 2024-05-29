@@ -3,7 +3,7 @@ import pandas as pd
 import json
 import plotly.express as px
 
-# Load your local GeoJSON file
+# Loading the local GeoJSON file
 with open('TZA_adm1_mkoaTZ.geojson') as f:
     geojson_data = json.load(f)
 
