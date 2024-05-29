@@ -7,22 +7,22 @@ import plotly.express as px
 with open('TZA_adm1_mkoaTZ.geojson') as f:
     geojson_data = json.load(f)
 
-# Load the CSV file containing food production data
+# Loading the CSV file containing food production data
 food_production_data = pd.read_csv('food_production_data.csv')
 
-# Convert 'TOTAL PRODUCTION' column to numeric, handling errors as NaN
+# Converting 'TOTAL PRODUCTION' column to numeric, handling errors as NaN
 food_production_data['TOTAL PRODUCTION'] = pd.to_numeric(food_production_data['TOTAL PRODUCTION'], errors='coerce')
 
-# Replace invalid or missing values (represented by "-") with NaN
+# Replacing invalid or missing values (represented by "-") with NaN
 food_production_data.replace("-", float('nan'), inplace=True)
 
-# Fill NaN values in 'TOTAL PRODUCTION' column with 0
+# Filling NaN values in 'TOTAL PRODUCTION' column with 0
 food_production_data['TOTAL PRODUCTION'].fillna(0, inplace=True)
 
-# Generate color scale based on total production
+# Generating color scale based on total production
 color_scale = px.colors.sequential.Greens
 
-# Create choropleth map
+# Creating choropleth map
 fig = px.choropleth(
     food_production_data,
     geojson=geojson_data,  # Load the GeoJSON data
@@ -35,7 +35,7 @@ fig = px.choropleth(
     title="Food Crop Production Distribution in Tanzania-mainland Regions"  # Map title
 )
 
-# Update the layout of the map
+# Updating the layout of the map
 fig.update_layout(
     title_x=0.5,  # Set the title's horizontal position to the center
     title_y=0.9,  # Set the title's vertical position to the top
@@ -58,7 +58,7 @@ fig.update_layout(
     ]
 )
 
-# Update the layout of the map to center on Tanzania and zoom in
+# Updating the layout of the map to center on Tanzania and zoom in
 fig.update_geos(
     fitbounds="locations",
     visible=False
