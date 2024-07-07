@@ -69,6 +69,13 @@ This project was created for the Jamii Forums' Challenge "Stories of Change." [R
 - `optimizer_map.py`: Additional Python script for map optimization.
 - `tanzania_regions.csv`: CSV file containing names of Tanzanian regions.
 
+
+## Vote for the Project
+
+If you find this project useful, please consider voting for it in the Jamii Forums' "Challenge Stories of Change." The poll is at the bottom of the [article](https://www.jamiiforums.com/threads/exponential-development-vision-2035-dira-ya-maendeleo-ya-kasi-2035.2217724/). Your support is greatly appreciated!
+
+
+
 ## Contributing
 
 Contributions are welcome! Feel free to fork the repository, create a new branch, and submit a pull request for any improvements or bug fixes. For major changes, please open an issue first to discuss what you would like to change.
