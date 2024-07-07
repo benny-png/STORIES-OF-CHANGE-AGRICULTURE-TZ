@@ -1,13 +1,15 @@
 
----
-
 # STORIES-OF-CHANGE-AGRICULTURE-TZ 🚜
 
 ![Project Screenshot](https://github.com/benny-png/STORIES-OF-CHANGE-AGRICULTURE-TZ/blob/main/Screenshot%202024-05-29%20111817.png)
 
+![Greedy Optimizer Screenshot](https://github.com/benny-png/STORIES-OF-CHANGE-AGRICULTURE-TZ/blob/main/zonedivisionbyproduction.png)
+
 ## Overview
 
 **STORIES-OF-CHANGE-AGRICULTURE-TZ** is a project aimed at visualizing agricultural changes in Tanzania through interactive choropleth maps. The project utilizes GeoJSON data for Tanzanian regions and Plotly for map visualization, providing insights into agricultural data and trends.
+
+This project was created for the Jamii Forums' "Challenge Stories of Change." [Read more about it here](https://www.jamiiforums.com/threads/exponential-development-vision-2035-dira-ya-maendeleo-ya-kasi-2035.2217724/).
 
 ## Features
 
@@ -15,14 +17,15 @@
 - **Interactive Maps**: Utilizes Plotly to create dynamic and interactive choropleth maps.
 - **Data Visualization**: Visualizes agricultural data, highlighting changes and trends over time.
 - **CSV Data Processing**: Reads and processes agricultural data from CSV files.
+- **Greedy Algorithm Optimizer**: Implements a greedy algorithm to optimize regional networks based on food production data.
 
 ## Requirements
 
 - Python 3.x
 - pandas
 - plotly
-- requests
-- openpyxl
+- geopandas
+- json
 
 ## Installation
 
@@ -34,24 +37,30 @@
 
 2. Install the required Python packages:
     ```bash
-    pip install pandas plotly requests openpyxl
+    pip install pandas plotly geopandas json
     ```
 
 ## Usage
 
-1. Prepare your data: Ensure `food_production_data.csv` and `tanzania_regions.csv` are correctly formatted and contain the necessary data.
+1. Prepare your data: Ensure `food_production_data.csv` and `TZA_adm1_mkoaTZ.geojson` are correctly formatted and contain the necessary data.
 
 2. Run the script to generate the choropleth map:
     ```bash
     python map_plotter_test.py
     ```
 
-3. The map will display the agricultural data across Tanzanian regions, allowing for interactive exploration of the data.
+3. Run the optimizer script to visualize optimized regional networks:
+    ```bash
+    python optimizer_map.py
+    ```
+
+4. The map will display the agricultural data across Tanzanian regions, allowing for interactive exploration of the data.
 
 ## Repository Contents
 
 - `README.md`: Project overview and instructions.
 - `Screenshot 2024-05-29 111817.png`: Screenshot of the project output.
+- `zonedivisionbyproduction.png`: Screenshot of the greedy optimizer output.
 - `TZA_adm1_mkoaTZ.geojson`: GeoJSON file containing geographical boundaries of Tanzanian regions.
 - `food_production_data.csv`: CSV file containing agricultural data for Tanzania.
 - `map_plotter_test.py`: Python script for generating the choropleth map.
