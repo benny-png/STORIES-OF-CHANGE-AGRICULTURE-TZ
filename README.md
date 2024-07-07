@@ -89,6 +89,6 @@ For any inquiries or support, please contact:
 
 ## Vote for the Project
 
-If you find this project useful, please consider voting for it in the Jamii Forums' "Challenge Stories of Change." The poll is at the bottom of the [article](https://www.jamiiforums.com/threads/exponential-development-vision-2035-dira-ya-maendeleo-ya-kasi-2035.2217724/). Your support is greatly appreciated!
+If you find this project useful, please consider voting for it in the Jamii Forums' Challenge "Stories of Change." The poll is at the bottom of the [article](https://www.jamiiforums.com/threads/exponential-development-vision-2035-dira-ya-maendeleo-ya-kasi-2035.2217724/). Your support is greatly appreciated!
 
 ---
