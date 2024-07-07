@@ -3,7 +3,6 @@
 
 ![Project Screenshot](https://github.com/benny-png/STORIES-OF-CHANGE-AGRICULTURE-TZ/blob/main/Screenshot%202024-05-29%20111817.png)
 
-![Greedy Optimizer Screenshot](https://github.com/benny-png/STORIES-OF-CHANGE-AGRICULTURE-TZ/blob/main/zonedivisionbyproduction.png)
 
 ## Overview
 
@@ -53,6 +52,9 @@ This project was created for the Jamii Forums' "Challenge Stories of Change." [R
     ```bash
     python optimizer_map.py
     ```
+    
+![Greedy Optimizer Screenshot](https://github.com/benny-png/STORIES-OF-CHANGE-AGRICULTURE-TZ/blob/main/zonedivisionbyproduction.png)
+
 
 4. The map will display the agricultural data across Tanzanian regions, allowing for interactive exploration of the data.
 
