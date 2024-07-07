@@ -56,7 +56,7 @@ This project was created for the Jamii Forums' "Challenge Stories of Change." [R
 ![Greedy Optimizer Screenshot](https://github.com/benny-png/STORIES-OF-CHANGE-AGRICULTURE-TZ/blob/main/zonedivisionbyproduction.png)
 
 
-4. The map will display the agricultural data across Tanzanian regions, allowing for interactive exploration of the data.
+4. The map will display the agricultural data across Tanzanian regions grouped in zones, allowing for interactive exploration and clssification of the zones based on data and number of mega-industries.
 
 ## Repository Contents
 
