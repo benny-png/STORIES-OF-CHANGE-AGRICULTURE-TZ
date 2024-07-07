@@ -8,7 +8,7 @@
 
 **STORIES-OF-CHANGE-AGRICULTURE-TZ** is a project aimed at visualizing agricultural changes in Tanzania through interactive choropleth maps. The project utilizes GeoJSON data for Tanzanian regions and Plotly for map visualization, providing insights into agricultural data and trends.
 
-This project was created for the Jamii Forums' "Challenge Stories of Change." [Read more about it here](https://www.jamiiforums.com/threads/exponential-development-vision-2035-dira-ya-maendeleo-ya-kasi-2035.2217724/).
+This project was created for the Jamii Forums' Challenge "Stories of Change." [Read more about it here](https://www.jamiiforums.com/threads/exponential-development-vision-2035-dira-ya-maendeleo-ya-kasi-2035.2217724/).
 
 ## Features
 
